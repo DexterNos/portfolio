@@ -1,156 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JBA Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Bautista Acosta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./portafolio/style.css">
   </head>
   <body>
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <div class="content-wrap">
-          <h1>Jonathan Bautista Acosta</h1>
-          <h2>Mecatronic Engineer</h2>
-
-          <p>As an engineer, I work in identifying and solving problems in industrial systems or processes. 
-          I am passionate about technology, as well as sharing my knowledge with other people.</p>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">My work</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Contact Me</a>
         </div>
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
-        <div class="content-wrap divider">
-          <h2>Featured Projects</h2>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid bg-dark text-white">
+    <h1>Hi,</h1>
+    <h1>I'm Jonathan,</h1>
+    <h1>AI Engineer</h1>
+    <br>
+    <p class="h4">Azure | AWS | GCP</p>
+    <br>
+    <div>
+      <p class="h4 bg-dark text-white">My Portfolio</p>
+    </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-bg-light mb-3">
+            <img src="https://www.computervision.zone/wp-content/uploads/2021/06/Hand-Tracking-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">LSM Hand Tracking</h5>
+              <p class="card-text">LSM Project (Lenguaje de señas mexicano) detecting vocals.</p>
+              <a href="https://github.com/DexterNos/vision_senas" class="btn btn-info" target="_blank">GitHub Repo</a>
+              <a href="https://drive.google.com/file/d/1KJI_tIc7VF2oH1NdwjiBsOiJAbzRf0R6/view?usp=sharing" class="btn btn-info" target="_blank">Video</a>
+            </div>
+          </div>
+        </div>
+      </div>
       
-        <!-- Copy the whole <section> block to add more projects. -->
-          <section class="project-item">
-            <img src="images/rompiendo-el-hielo.jfif" alt="Rompiendo el Hielo Cover">
-            <h3>Rompiendo el Hielo</h3>
-            <p>Mariana Ramirez and I started a program with Youtech Border that we named 
-              Rompiendo el Hielo (Break the ice) in which we start a videoconference open to the public and invite them to 
-              join conversations on topics related to technology, anyone can be part of the conversation. We want to bring 
-              technology closer to people through digital conversations.</p>
-            <a class="btn" href="https://www.facebook.com/youtechborder" target="_blank">View project</a>
-          </section>
-        <!-- End of Project block. -->
-        </div>
-      </section>
+      
+  
+  
 
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="work">
-        <div class="content-wrap item-details divider">
-          <h2>Work Experience</h2>
-          <p>See my complete work history on
-            <a href=https://www.linkedin.com/in/jonathan-bautista-acosta/>LinkedIn</a>.
-          </p>
-
-          <!-- Copy this whole <section> block to add more jobs. -->
-          <!-- Job 1 -->  
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Intern</h3>
-              <p>Valeo</p>
-              <p>September 2017 - June 2018</p>
-            </div>
-            <div class="job-summary">
-              <p>As an intern, I supported the Industrial Department in projects in development, 
-                as well as in inventories and updates of the number of parts.</p>
-                <p>Key contributions:</p>
-                <ul>
-                  <li>Update of part numbers in SAP</li>
-                  <li>Documentation of projects in development</li>
-                  <li>Creation of layouts for production staions</li>
-                  <li>Responsible of tracking updates in development projects</li>
-                </ul>
-            </div>
-           </section>
-
-          <!-- Job 2 --> 
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Intern</h3>
-              <p>FabLab Juarez</p>
-              <p>August 2018 - December 2018</p>
-            </div>
-            <div class="job-summary">
-              <p>Support 3D printing, laser cutting, creation of interactive electronic 
-                equipment for customers and visitors, support customers in electronic and programming issues.</p>
-            </div>
-          </section>
-
-          <!-- Job 3 -->
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Electronic and Robotic Instructor</h3>
-              <p>Fundacion Axcel A.C.</p>
-              <p>January 2019 - December 2019</p>
-            </div>
-            <div class="job-summary">
-              <p>Design, develop and implement teaching units for middle school students, in order to create an interesting
-                educational environment for the course.</p>
-              <p>Key contributions:</p>  
-              <ul>
-                <li>Using Arduino for teching basic electronic knowledge.</li>
-                <li>Implement recreational activities for better interaction between students.</li>
-                <li>Developing assessment materials to see the level of progress in students.</li>
-                </ul>
-            </div>
-          </section>
-          <!-- Job 4 -->
-          <section class="job-item">
-            <div class="job-details">
-              <h3>IT Specialist</h3>
-              <p>Microsoft</p>
-              <p>December 2019 - Present</p>
-            </div>
-            <div class="job-summary">
-              <p>Creating digital skills training programs for the general population.</p>
-              <p>Key contributions:</p>
-              <ul>
-                <li>Support organizations in the process of applying to the funding.</li>
-                <li>Follow up on developing programs.</li>
-                <li>Keep track of program documentation.</li>
-                <li>Support in the creation and implementation of trainings.</li>
-              </ul>
-            </div>
-          </section>
-          <!-- End of Job block. -->
-        </div>  
-      </section>
-
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
-        <div class="content-wrap item-details">
-          <h2>Education</h2>
-
-          <!-- Copy this whole <section> block to add more schools. -->
-          <section>
-            <h3>Universidad Autónoma de Ciudad Juárez</h3>
-            <p>Mecatronic Engineer 2014 - 2019</p>
-          </section>
-          <section>
-            <h3>CENALTEC</h3>
-            <p>Data Analyst, 2019</p>
-          </section>
-        <!-- End of School block. -->
-        </div>
-      </section>
-
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <div class="content-wrap">
-          <h2>Let's Keep in Touch!</h2>
-
-          <!-- Social media and contact links. Add or remove any networks. -->
-          <ul class="contact-list">
-            <li><a href="mailto:jon.bau.aco@outlook.com">jon.bau.aco@outlook.com</a></li>
-            <li><a href="https://www.linkedin.com/in/jonathan-bautista-acosta/" target="_blank">LinkedIn</a></li>
-          </ul>
-        </div>  
-      </footer>
-    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
